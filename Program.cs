@@ -1,6 +1,7 @@
 ﻿using PracticeOOPS;
 using System;
 using System.ComponentModel;
+using System.Numerics;
 
 namespace ParcticeOPOS
 {
@@ -56,7 +57,21 @@ namespace ParcticeOPOS
 
             string[] names = { "mayur", "om" };
             Console.WriteLine(names);
-            
+
+            Fuctions f = new Fuctions();
+
+            Console.WriteLine(f.Max(4, 7));
+
+            Recursion r = new Recursion();
+            r.PrintNum(5);
+
+            Console.WriteLine(r.Factorial(5));
+            Console.WriteLine(r.Add(5));
+            r.PrintReverse(5);
+
+            Console.WriteLine(r.Fibonacci(5));
+
+
         }
     }
 }
