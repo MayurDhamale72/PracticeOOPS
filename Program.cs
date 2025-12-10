@@ -71,7 +71,13 @@ namespace ParcticeOPOS
 
             Console.WriteLine(r.Fibonacci(5));
 
+            Sorting a = new Sorting();
+            int[] arr = {7,8,9,10, 10, 0, 2, 1, 89};
 
+            a.PrintArray(arr);
+            //a.BubbuleSort(arr);
+            a.SelectionSort(arr);
+            a.PrintArray(arr);
         }
     }
 }
